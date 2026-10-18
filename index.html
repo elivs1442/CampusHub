@@ -1,11 +1,341 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusHub | Your University Portal</title>
+    <meta name="description" content="Welcome to CampusHub, your university portal for courses, instructors, campus events, announcements, and schedules.">
 </head>
 <body>
-  hi guys how yall doin
+
+    <header>
+        <div>
+            <img src="Images/campushub-logo.png" alt="CampusHub university logo" width="60" height="60">
+            <h1>CampusHub</h1>
+            <p>Your University, Your Community</p>
+        </div>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="announcements.html">Announcements</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section aria-labelledby="hero-heading">
+            <img
+                src="Images/campus-hero.jpg"
+                alt="University students walking together across a green campus"
+                width="1200"
+                height="500"
+            >
+
+            <h2 id="hero-heading">Your Campus, Your Future!</h2>
+            <p>
+                Discover new opportunities, learn from experienced instructors,
+                and build the skills you need to succeed. Your journey starts here.
+            </p>
+            <a href="courses.html">Explore Courses</a>
+        </section>
+
+        <section aria-labelledby="statistics-heading">
+            <h2 id="statistics-heading">CampusHub at a Glance</h2>
+
+            <dl>
+                <div>
+                    <dt>Students</dt>
+                    <dd>1,250</dd>
+                </div>
+                <div>
+                    <dt>Courses</dt>
+                    <dd>48</dd>
+                </div>
+                <div>
+                    <dt>Instructors</dt>
+                    <dd>32</dd>
+                </div>
+                <div>
+                    <dt>Events</dt>
+                    <dd>12</dd>
+                </div>
+            </dl>
+        </section>
+
+        <section aria-labelledby="courses-heading">
+            <h2 id="courses-heading">Featured Courses</h2>
+            <p>Explore programs designed to develop your knowledge and practical skills.</p>
+
+            <div>
+                <article>
+                    <img
+                        src="Images/web-development.jpg"
+                        alt="Laptop displaying a website's HTML and web development code"
+                        width="400"
+                        height="250"
+                    >
+                    <h3>Web Development</h3>
+                    <p>
+                        Learn the fundamentals of HTML, CSS, web technologies,
+                        and accessible website development.
+                    </p>
+                    <p><strong>Duration:</strong> 12 weeks</p>
+                    <a href="courses.html">View Course Information</a>
+                </article>
+
+                <article>
+                    <img
+                        src="Images/database-systems.jpg"
+                        alt="Database server equipment representing data storage and management"
+                        width="400"
+                        height="250"
+                    >
+                    <h3>Database Systems</h3>
+                    <p>
+                        Understand relational databases, SQL queries,
+                        data organization, and information management.
+                    </p>
+                    <p><strong>Duration:</strong> 10 weeks</p>
+                    <a href="courses.html">View Course Information</a>
+                </article>
+
+                <article>
+                    <img
+                        src="Images/digital-marketing.jpg"
+                        alt="Digital marketing analytics displayed on a computer screen"
+                        width="400"
+                        height="250"
+                    >
+                    <h3>Digital Marketing</h3>
+                    <p>
+                        Explore social media marketing, search engine optimization,
+                        content strategy, and online advertising.
+                    </p>
+                    <p><strong>Duration:</strong> 8 weeks</p>
+                    <a href="courses.html">View Course Information</a>
+                </article>
+
+                <article>
+                    <img
+                        src="Images/graphic-design.jpg"
+                        alt="Graphic design workspace with illustrations, colors, and design tools"
+                        width="400"
+                        height="250"
+                    >
+                    <h3>Graphic Design</h3>
+                    <p>
+                        Develop visual communication skills through typography,
+                        color theory, illustration, and layout design.
+                    </p>
+                    <p><strong>Duration:</strong> 10 weeks</p>
+                    <a href="courses.html">View Course Information</a>
+                </article>
+            </div>
+
+            <p><a href="courses.html">Browse All Courses</a></p>
+        </section>
+
+        <section aria-labelledby="events-heading">
+            <h2 id="events-heading">Upcoming Events</h2>
+            <p>Connect with classmates, meet professionals, and participate in campus life.</p>
+
+            <div>
+                <article>
+                    <img
+                        src="Images/technology-workshop.jpg"
+                        alt="Students participating in a university technology workshop"
+                        width="400"
+                        height="250"
+                    >
+                    <h3>Technology and Innovation Workshop</h3>
+                    <p>
+                        Discover emerging technologies and collaborate on practical
+                        challenges with fellow students.
+                    </p>
+                    <p>
+                        <strong>Date:</strong>
+                        <time datetime="2026-10-20">October 20, 2026</time>
+                    </p>
+                    <p><strong>Location:</strong> Computer Science Laboratory</p>
+                    <a href="events.html">View Event Details</a>
+                </article>
+
+                <article>
+                    <img
+                        src="Images/career-fair.jpg"
+                        alt="Students speaking with employers at a university career fair"
+                        width="400"
+                        height="250"
+                    >
+                    <h3>University Career Fair</h3>
+                    <p>
+                        Meet employers, explore internship opportunities, and
+                        learn about different career paths.
+                    </p>
+                    <p>
+                        <strong>Date:</strong>
+                        <time datetime="2026-10-24">October 24, 2026</time>
+                    </p>
+                    <p><strong>Location:</strong> Main University Hall</p>
+                    <a href="events.html">View Event Details</a>
+                </article>
+
+                <article>
+                    <img
+                        src="Images/student-welcome.jpg"
+                        alt="University students gathering for a campus community event"
+                        width="400"
+                        height="250"
+                    >
+                    <h3>Student Community Day</h3>
+                    <p>
+                        Meet student organizations, discover campus activities,
+                        and make new connections.
+                    </p>
+                    <p>
+                        <strong>Date:</strong>
+                        <time datetime="2026-10-29">October 29, 2026</time>
+                    </p>
+                    <p><strong>Location:</strong> Central Campus Garden</p>
+                    <a href="events.html">View Event Details</a>
+                </article>
+            </div>
+
+            <p><a href="events.html">View All Events</a></p>
+        </section>
+
+        <section aria-labelledby="announcements-heading">
+            <h2 id="announcements-heading">Latest Announcements</h2>
+            <p>Stay informed about important university updates and deadlines.</p>
+
+            <article>
+                <h3>Registration for the Next Semester</h3>
+                <p>
+                    Students are encouraged to review their course selections
+                    and prepare for the upcoming semester registration period.
+                    Contact the academic office if you need assistance.
+                </p>
+                <p>
+                    <strong>Published:</strong>
+                    <time datetime="2026-10-10">October 10, 2026</time>
+                </p>
+                <a href="announcements.html">Read Announcement Details</a>
+            </article>
+
+            <article>
+                <h3>Library Hours During Examination Preparation</h3>
+                <p>
+                    The university library will provide extended study hours
+                    during the examination preparation period. Please check
+                    the library noticeboard for the confirmed schedule.
+                </p>
+                <p>
+                    <strong>Published:</strong>
+                    <time datetime="2026-10-08">October 8, 2026</time>
+                </p>
+                <a href="announcements.html">Read Announcement Details</a>
+            </article>
+
+            <article>
+                <h3>Student Scholarship Applications</h3>
+                <p>
+                    Eligible students are invited to review the university's
+                    scholarship requirements and prepare the necessary documents
+                    before the published application deadline.
+                </p>
+                <p>
+                    <strong>Published:</strong>
+                    <time datetime="2026-10-05">October 5, 2026</time>
+                </p>
+                <a href="announcements.html">Read Announcement Details</a>
+            </article>
+
+            <p><a href="announcements.html">View All Announcements</a></p>
+        </section>
+
+        <section aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Stay Connected</h2>
+            <p>
+                Have a question about CampusHub? Contact our university
+                support team for assistance.
+            </p>
+
+            <address>
+                <p>Email: <a href="mailto:support@campushub.example">support@campushub.example</a></p>
+                <p>Phone: <a href="tel:+10000000000">+1 000 000 0000</a></p>
+                <p>Address: CampusHub University, University Avenue, Main Campus</p>
+            </address>
+
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Send Us a Message</legend>
+
+                    <p>
+                        <label for="visitor-name">Your Name:</label>
+                        <input
+                            type="text"
+                            id="visitor-name"
+                            name="name"
+                            autocomplete="name"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="visitor-email">Email Address:</label>
+                        <input
+                            type="email"
+                            id="visitor-email"
+                            name="email"
+                            autocomplete="email"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="visitor-message">Your Message:</label>
+                        <textarea
+                            id="visitor-message"
+                            name="message"
+                            rows="5"
+                            cols="40"
+                            required
+                        ></textarea>
+                    </p>
+
+                    <button type="submit">Submit Message</button>
+                </fieldset>
+            </form>
+
+            <p>
+                Note: This is a demonstration form. No message delivery
+                or processing system is configured.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CampusHub University. All rights reserved.</p>
+
+        <nav aria-label="Footer navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="announcements.html">Announcements</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+            </ul>
+        </nav>
+
+        <p>Learn, connect, and build your future with CampusHub.</p>
+    </footer>
+
 </body>
 </html>
