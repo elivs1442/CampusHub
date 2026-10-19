@@ -13,3 +13,9 @@ p{
     font-size: 20px;
     color: #205514;
 }
+.link{
+    color: aquamarine;
+    font-size: large;
+    text-decoration: none;
+    font-weight: 100;
+}
